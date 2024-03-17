@@ -163,15 +163,18 @@ const config = {
   },
   production: {
     DB: {
-      HOST: "34.223.146.53",
+      HOST: "122.161.52.44",
       PORT: "27017",
-      DATABASE: "Docnock",
+
+      // HOST: "localhost",
+      // PORT: "27017",
+      DATABASE: "ghanaDoc",
       MONGOOSE: {
         useUnifiedTopology: true,
         useNewUrlParser: true,
       },
-      UserName: "Docnock",
-      Password: "DFGocn45tgock",
+      UserName: "pradeepmeandev",
+      Password: "K8CqVJkiYC4iL3U9",
     },
 
     TWILIONUMBER:{
