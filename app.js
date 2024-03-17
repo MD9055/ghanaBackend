@@ -71,5 +71,7 @@ var io = require("socket.io")(server, {
   },
 });
 
+
+
 app.set("io", io);
 require("./middlewares/socketEvents")(io);

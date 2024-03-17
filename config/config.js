@@ -1,5 +1,7 @@
 "use strict";
 
+let url = "mongodb://pradeepmeandev:K8CqVJkiYC4iL3U9@122.161.52.44/ghanaDoc"
+
 const config = {
   local: {
     DB: {
@@ -82,18 +84,18 @@ const config = {
   
   stagging: {
     DB: {
-      HOST: "54.201.160.69",
-      PORT: "58173",
+      HOST: "122.161.52.44",
+      PORT: "27017",
 
       // HOST: "localhost",
       // PORT: "27017",
-      DATABASE: "carecomtool",
+      DATABASE: "ghanaDoc",
       MONGOOSE: {
         useUnifiedTopology: true,
         useNewUrlParser: true,
       },
-      UserName: "carecomtool",
-      Password: "DFgb4567thg2",
+      UserName: "pradeepmeandev",
+      Password: "K8CqVJkiYC4iL3U9",
     },
     // EMAIL: {
     //   host: "smtp.gmail.com",
@@ -161,15 +163,18 @@ const config = {
   },
   production: {
     DB: {
-      HOST: "34.223.146.53",
+      HOST: "122.161.52.44",
       PORT: "27017",
-      DATABASE: "Docnock",
+
+      // HOST: "localhost",
+      // PORT: "27017",
+      DATABASE: "ghanaDoc",
       MONGOOSE: {
         useUnifiedTopology: true,
         useNewUrlParser: true,
       },
-      UserName: "Docnock",
-      Password: "DFGocn45tgock",
+      UserName: "pradeepmeandev",
+      Password: "K8CqVJkiYC4iL3U9",
     },
 
     TWILIONUMBER:{
