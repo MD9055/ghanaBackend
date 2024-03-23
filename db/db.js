@@ -23,8 +23,8 @@ var options = {
 // const MONGOURI = "mongodb+srv://pradeepmeandev:K8CqVJkiYC4iL3U9@ghanadoc.sfat4gr.mongodb.net/?retryWrites=true&w=majority&appName=ghanaDoc";
 
 
-const MONGOURI = "mongodb+srv://pradeepmeandev:K8CqVJkiYC4iL3U9@ghanadoc.sfat4gr.mongodb.net/?retryWrites=true&w=majority&appName=ghanaDoc";
-
+const MONGOURI = "mongodb+srv://pradeepmeandev:85wJdPBPkUywJS3Q@cluster0.qhfvfea.mongodb.net/ghanaDb?retryWrites=true&w=majority";
+// MONGOURI = mongodb+srv://medtoolsystems:QFoyWLCUsdKlpIYr@cluster0.nbx7mor.mongodb.net/medtoolDB?retryWrites=true&w=majority
 
 const InitiateMongoServer = async () => {
   try {
