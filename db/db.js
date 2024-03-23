@@ -11,15 +11,19 @@ const config = require("../config/config.js").get(
 
 const { DB } = config;
 var options = {
-  user: DB.UserName,
-  pass: DB.Password,
+  user: "pradeepmeandev",
+  pass: "K8CqVJkiYC4iL3U9",
 };
-const MONGOURI = `mongodb://${DB.HOST}:${DB.PORT}/${DB.DATABASE}`;
+
+
+// const MONGOURI = `mongodb://${DB.HOST}:${DB.PORT}/${DB.DATABASE}`;
+
+// console.log(MONGOURI, "MONGOURI")
 
 // const MONGOURI = "mongodb+srv://pradeepmeandev:K8CqVJkiYC4iL3U9@ghanadoc.sfat4gr.mongodb.net/?retryWrites=true&w=majority&appName=ghanaDoc";
 
 
-// const MONGOURI = "mongodb+srv://pradeepmeandev:K8CqVJkiYC4iL3U9@ghanadoc.sfat4gr.mongodb.net/?retryWrites=true&w=majority&appName=ghanaDoc";
+const MONGOURI = "mongodb+srv://pradeepmeandev:K8CqVJkiYC4iL3U9@ghanadoc.sfat4gr.mongodb.net/?retryWrites=true&w=majority&appName=ghanaDoc";
 
 
 const InitiateMongoServer = async () => {
