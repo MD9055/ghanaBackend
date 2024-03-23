@@ -4,15 +4,31 @@ let url = "mongodb://pradeepmeandev:K8CqVJkiYC4iL3U9@122.161.52.44/ghanaDoc"
 
 const config = {
   local: {
+    // DB: {
+    //   HOST: "127.0.0.1",
+    //   PORT: "27017",
+    //   DATABASE: "carecomtool",
+    //   MONGOOSE: {
+    //     useUnifiedTopology: true,
+    //     useNewUrlParser: true,
+    //   },
+    // },
+
     DB: {
-      HOST: "127.0.0.1",
+      HOST: "0.0.0.0",
       PORT: "27017",
-      DATABASE: "carecomtool",
+
+      // HOST: "localhost",
+      // PORT: "27017",
+      DATABASE: "ghanaDoc",
       MONGOOSE: {
         useUnifiedTopology: true,
         useNewUrlParser: true,
       },
+      UserName: "pradeepmeandev",
+      Password: "K8CqVJkiYC4iL3U9",
     },
+
 
     // DB: {
     //   HOST: "34.223.146.53",
@@ -163,7 +179,7 @@ const config = {
   },
   production: {
     DB: {
-      HOST: "122.161.52.44",
+      HOST: "0.0.0.0",
       PORT: "27017",
 
       // HOST: "localhost",
