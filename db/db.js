@@ -14,7 +14,10 @@ var options = {
   user: DB.UserName,
   pass: DB.Password,
 };
-const MONGOURI = `mongodb://${DB.HOST}:${DB.PORT}/${DB.DATABASE}`;
+//const MONGOURI = `mongodb://${DB.HOST}:${DB.PORT}/${DB.DATABASE}`;
+
+const MONGOURI = "mongodb+srv://pradeepmeandev:K8CqVJkiYC4iL3U9@ghanadoc.sfat4gr.mongodb.net/?retryWrites=true&w=majority&appName=ghanaDoc";
+
 
 // const MONGOURI = "mongodb+srv://pradeepmeandev:K8CqVJkiYC4iL3U9@ghanadoc.sfat4gr.mongodb.net/?retryWrites=true&w=majority&appName=ghanaDoc";
 
