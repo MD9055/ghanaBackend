@@ -316,7 +316,7 @@ async function assistedLivings(req, res) {
   try {
     let query = {
       role: "assisted_living",
-      status: { $eq: 1 },
+     // status: { $eq: 1 },
     };
     let assisteLive = await userModel.find(query);
 
