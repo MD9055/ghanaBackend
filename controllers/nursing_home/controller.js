@@ -323,7 +323,7 @@ async function nurshingHomeList(req, res) {
   try {
     let query = {
       role: "nursing_home",
-      status: { $eq: 1 },
+      //status: { $eq: 1 },
     };
     let nursingHome = await userModel.find(query);
 
